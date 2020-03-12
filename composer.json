@@ -1,0 +1,21 @@
+{
+    "name": "xinliang/maximtop",
+    "description": "maximtop",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xinliang",
+            "email": "445604478@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "xinliang\\Maximtop\\": "src/"
+        }
+    }
+}
