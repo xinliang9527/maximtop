@@ -4,14 +4,14 @@ namespace Xinliang\Maximtop\Contracts;
 
 use Illuminate\Support\Facades\Log;
 
-trait MaximUser
+trait MaximToken
 {
 
-    public function register($username,$password)
+    public function tokenById($id,$password)
     {
-        $url = $this->api_endpoint . 'user/register/v2';
+        $url = $this->api_endpoint . 'token/id';
         $params = [
-            'username' => $username,
+            'user_id' => $id,
             'password' => $password,
         ];
         $header = [
